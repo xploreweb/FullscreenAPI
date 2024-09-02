@@ -1,0 +1,24 @@
+body {
+    font-family: Montserrat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  button {
+    all: unset;
+    cursor: pointer;
+  }
+  
+  @media (display-mode: fullscreen) {
+    body {
+      background-color: #f9bb86;
+      font-size: 1.2em;
+    }
+  }
+  
